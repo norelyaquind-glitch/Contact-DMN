@@ -1,0 +1,129 @@
+#image {
+    width: 120px;
+    height: 120px;
+border-radius: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-width: 2px;
+
+
+}
+@keyframes reveal{0% {
+    filter: blur(5px);
+    opacity: 0;
+}
+   100% {
+    filter: blur(0);
+    opacity: 1;
+   }
+}
+
+body  {
+    font-family:"Libertinus Sans",
+        sans-serif; 
+    background: linear-gradient( to top ,pink , skyblue ,white) ;
+}
+#box {
+    filter: blur(5px);
+        opacity: 0;
+        animation: reveal 1s forwards            ;
+    padding: 15px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    border-style:inherit;
+    border-radius: 10px;
+    width:400px;
+    height: auto;
+    background:linear-gradient(to top, skyblue, white);
+    
+}
+
+h2 {
+    color: palevioletred;
+}
+h4 {
+    color  :white;
+}
+#Email {
+    width: 300px;
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgba(203, 231, 254, 0.6);
+    color:palevioletred;  
+    font-family:"Libertinus Sans",
+        sans-serif; 
+        transition: background-color 0.3s ease;
+}
+#Email:active, #Email:hover{
+    background-color: white;
+    
+}
+
+#LinkedIn{
+    margin-top: 10px;
+    width: 300px;
+        border: none;
+        height: 35px;
+        border-radius: 5px;
+        background-color:rgba(203, 231, 254, 0.6);
+        
+        color: palevioletred;
+            font-family: "Libertinus Sans",
+                sans-serif;
+}
+#LinkedIn:active ,#LinkedIn:hover {
+    background-color: white;
+}
+#Discord {
+    margin-top: 10px;
+        width: 300px;
+        border: none;
+        height: 35px;
+        border-radius: 5px;
+        background-color:rgba(203, 231, 254, 0.6);
+        color: palevioletred;
+            font-family: "Libertinus Sans",
+                sans-serif;
+}
+#Discord:active , #Discord:hover{
+    background-color: white;
+}
+#Telegram {
+    margin-top: 10px;
+        width: 300px;
+        border: none;
+        height: 35px;
+        border-radius: 5px;
+        background-color:rgba(203, 231, 254, 0.6);
+        color: palevioletred;
+            font-family: "Libertinus Sans",
+                sans-serif;
+    }
+    
+    #Telegram:active ,#Telegram:hover {
+        background-color: white;
+    }
+#Instagram {
+    margin-top: 10px;
+        width: 300px;
+        border: none;
+        height: 35px;
+        border-radius: 5px;
+        background-color:rgba(203, 231, 254, 0.6);
+        color: palevioletred;
+            font-family: "Libertinus Sans",
+                sans-serif;
+        
+    }
+    
+    #Instagram:active ,#Instagram:hover{
+        background-color: white;
+    }
+        
